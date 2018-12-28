@@ -1,0 +1,54 @@
+/* Arrays */
+
+var friends = ["Charlie", "Liz", "David", "Matthew"];
+
+console.log(friends[0])  //"Charlie"
+
+console.log(friends[1] + " <3 " + friends[2]); //"Liz <3 David"
+
+friends[0] = "Chuck"
+
+console.log(friends[0]) //"Chuck"
+
+friends[4] = "Jess" //Adds "Jess" to position 4 of the array friends
+
+friends.push("Tom"); //Adds "Tom" to the end of the array friends
+
+friends.pop(); //Removes the last item from the array and returns the item that it removes
+
+friends.unshift("Tom"); //Adds "Tom" to the beginning of an array
+
+friends.shift(); //Removes the first item from the array and returns the item that it removes
+
+/*------------------------------*/
+
+var friends = ["Charlie", "Liz", "David", "Matthew"];
+
+friends.indexOf("Liz"); //1
+friends.indexOf("David"); //2
+friends.indexOf("Tom"); //-1
+
+var bestFriends = friends.slice(1,2);
+//friends contains ["Charlie", "Liz", "David", "Matthew"]
+//bestFriends contains ["Liz", "David"]
+
+------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
